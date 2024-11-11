@@ -1,0 +1,120 @@
+/* Basic reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Navigation styling */
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Sidebar styling */
+aside {
+    background: #e2e2e2;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+aside h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p, footer a {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4CAF50;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main, aside {
+        padding: 10px;
+    }
+}
